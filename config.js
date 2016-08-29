@@ -3,12 +3,12 @@ var config = {};
 config.twitter = {};
 config.cassandra = {};
 
-config.twitter.CONSUMER_KEY = 'yj9f8FqdqVHzAoTW9lUY1SBpY';
-config.twitter.CONSUMER_SECRET= 'nJmMsGMAa8MuhpAaWGQaWJyYTUpxb1w8zyhuGpzICIvLPp8rom';
-config.twitter.ACCESS_TOKEN_KEY= '766094985603190785-OCErHyOsowqXJ24YyRrcFbl1OyCwzjI';
-config.twitter.ACCESS_TOKEN_SECRET= 'x3hcVMGNmNnXODxl48vvaJAk7p5HwqzMzia9tw0Zt2Dzz';
+config.twitter.CONSUMER_KEY": "YOUR_CONSUMER_KEY",
+config.twitter.CONSUMER_SECRET": "YOUR_CONSUMER_SECRET",
+config.twitter.ACCESS_TOKEN_KEY": "YOUR_ACCESS_TOKEN_KEY",
+config.twitter.ACCESS_TOKEN_SECRET": "YOUR_ACCESS_TOKEN_SECRET",
 
-config.cassandra.CONTACTPOINTS = '192.241.178.52';
+config.cassandra.CONTACTPOINTS = 'YOUR IP FROM CASSANDRA';
 config.cassandra.AUTHPROVIDER_USER = 'cassandra';
 config.cassandra.AUTHPROVIDER_PASSWORD = 'cassandra';
 config.cassandra.KEYSPACE =  'olympictest';
