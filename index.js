@@ -53,21 +53,12 @@ client.get('search/tweets', parametros, function(error, tweets, response) {
 			schedule =  data_tweet.getHours() + ':' + (data_tweet.getMinutes() + 1)  + ':' + data_tweet.getSeconds();
 			hour = data_tweet.getHours();
 			
-
-
-			//INSERIR NO CASSANDRA
-
-
-
-			console.log(item);
-
-			/*
 			//Obejto do Usuário
 			var u = item.user;
 			console.log('############### USER ############');
 			console.log(u);
 			console.log('############### USER END ############');
-			*/
+			
 		}
 
 	}
